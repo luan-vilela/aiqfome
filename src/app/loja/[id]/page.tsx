@@ -2,14 +2,12 @@ import { restaurants } from '@/mock/restaurant.mocks';
 import { restaurantMenus } from '@/mock/restaurantMenu.mock';
 
 import { Accordion } from '@/components/accordion/accordion';
-import { CircleButton } from '@/components/ui/circle-button/circleButton';
-import { StyledButton } from '@/components/ui/circle-button/circleButton.styles';
 
 import { CatalogList } from '../components/catalog-list/catalogList';
 import { StoreDetails } from '../components/store-details/storeDetails';
 import { StoreHeader } from '../components/store-header/storeHeader';
 
-const Loja = ({ params }: { params: { id: string } }) => {
+const Home = ({ params }: { params: { id: string } }) => {
   const id = params.id;
 
   const restaurant = restaurants.find((item) => item.id === id);
@@ -45,4 +43,4 @@ const Loja = ({ params }: { params: { id: string } }) => {
   );
 };
 
-export default Loja;
+export default Home;
