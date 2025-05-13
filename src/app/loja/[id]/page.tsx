@@ -7,7 +7,8 @@ import { CatalogList } from '../components/catalog-list/catalogList';
 import { StoreDetails } from '../components/store-details/storeDetails';
 import { StoreHeader } from '../components/store-header/storeHeader';
 
-const Home = ({ params }: { params: { id: string } }) => {
+const Home = async (props: { params: Promise<{ id: string }> }) => {
+  const params = await props.params;
   const id = params.id;
 
   const restaurant = restaurants.find((item) => item.id === id);
