@@ -4,7 +4,7 @@ Aplicação web responsiva desenvolvida com Next.js e React.
 
 ## Funcionalidades
 
-- Listagem de produtos por categoria
+- Listagem de produtos por nome
 - Adicionar produtos ao ticket
 - Visualizar ticket
 - Persistência local com localStorage
