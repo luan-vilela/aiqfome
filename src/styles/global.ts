@@ -5,6 +5,11 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Asap', sans-serif;
+    font-family: "Nunito", sans-serif;
   }
+  
+  .main {
+    background-color: ${({ theme }) => theme.colors.neutral[0]};
+  }
+
 `;
