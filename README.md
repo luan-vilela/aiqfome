@@ -1,6 +1,8 @@
 # Desafio Técnico - Aiqfome
 
-Aplicação web responsiva desenvolvida com Next.js e React.
+Aplicação web responsiva desenvolvida com Next.js e React. 
+
+"Para facilitar a visualização, foi realizado um deploy público da aplicação: [Aiqfome](https://aiqfome-teste-phi.vercel.app/).
 
 ## Funcionalidades
 
