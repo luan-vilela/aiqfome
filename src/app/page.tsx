@@ -1,14 +1,9 @@
-'use client';
-
-import { useThemeStore } from '@/store/useThemeStore';
+import RestaurantList from '../components/restaurant-list/restaurantList';
 
 export default function Home() {
-  const { toggleTheme, theme } = useThemeStore();
-  // const theme = useTheme();
-
   return (
     <div>
-      <button onClick={toggleTheme}>{theme === 'dark' ? '🌙 Dark' : '☀️ Light'}</button>
+      <RestaurantList />
     </div>
   );
 }
